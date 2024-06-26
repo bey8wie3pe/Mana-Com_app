@@ -1,3 +1,14 @@
+git init
+gh auth login
+git clone https://github.com/ユーザー名/リポジトリ名.git
+cd リポジトリ名
+git add .
+git commit -m "変更内容の説明"
+git push origin ブランチ名
+# 例: git push origin main
+git remote add origin https://github.com/ユーザー名/リポジトリ名.git
+
+
 mkdir my-new-repo
 cd my-new-repo
 git init
